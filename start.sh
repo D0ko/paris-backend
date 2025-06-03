@@ -1,2 +1,3 @@
 #!/bin/bash
-uvicorn app.main:app --reload --host 0.0.0.0 --port $PORT
+cd app/
+uvicorn main:app --reload --host 0.0.0.0 --port $PORT
